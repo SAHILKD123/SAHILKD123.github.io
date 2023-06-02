@@ -1,0 +1,156 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+html,
+body {
+  font-size: 16px;
+  color: #dfdfdf;
+  background-color: #063647;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 2rem 1rem 2rem;
+}
+.nav .nav-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav .nav-right .nav-item {
+  margin: 0px 10px;
+}
+nav a {
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #00d1b2;
+}
+
+a:hover {
+  color: #00d1b2;
+}
+.container {
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.section-1 {
+  background: #063647;
+}
+
+.section-2 {
+  background-color: #052d3d;
+}
+
+.section-3 {
+  background-color: #0e282e;
+}
+
+.d-flex-project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+a.nav-item {
+  color: #dfdfdf;
+}
+
+a.nav-item:hover {
+  color: #fff;
+}
+
+.avatar {
+  height: 200px;
+  border-radius: 50%;
+}
+
+.intro-description {
+  padding-top: 1rem;
+}
+
+.social-container img {
+  max-width: 100%;
+  max-height: 175px;
+  margin-bottom: 15px;
+}
+.box {
+  width: 700px;
+  background-color: transparent;
+  border: 2px solid rgba(7, 59, 79, 0.5);
+}
+.box p {
+  padding: 1rem;
+}
+.box .image {
+  text-align: center;
+}
+.box .image img {
+  width: 500px;
+}
+/* .project-figure {
+  margin: 0 auto 1rem auto;
+  height: 400px;
+  width: 300px;
+} */
+
+.project-text {
+  text-align: justify;
+}
+
+.title {
+  color: #fff;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.intro {
+  text-align: justify;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.void-background {
+  background-color: transparent;
+}
+#projects {
+  margin-bottom: 100px;
+}
+footer {
+  margin-top: 100px;
+  background-color: #0e282e;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  left: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .box .image img {
+    height: 200px;
+    width: 220px;
+  }
+  .box{
+    width: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .d-flex-project {
+    display: block;
+  }
+  .box {
+    width: auto;
+  }
+}

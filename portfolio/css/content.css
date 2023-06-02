@@ -1,0 +1,55 @@
+/* Academics Styles */
+aside {
+  padding: 1rem;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.box{
+  width: auto;
+}
+.box .image img {
+  width: 350px;
+}
+.image img {
+  height: 280px;
+  width: 280px;
+}
+.column {
+  flex-basis: content;
+}
+.m-auto {
+  margin: auto;
+}
+.text-center {
+  text-align: center;
+}
+@media only screen and (max-width: 992px) {
+  .image img {
+    height: 200px;
+    width: 220px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .image img {
+    height: 100px;
+    width: 220px;
+  }
+  .social-container {
+    display: block;
+  }
+  .d-flex {
+    display: block;
+  }
+  .project-figure {
+    margin: 5px 0px;
+  }
+}
